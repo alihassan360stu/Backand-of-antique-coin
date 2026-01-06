@@ -27,7 +27,7 @@ const validation = {
     console.log('347398457290w5872035428q3952704395720u394wo5u20934otiu3p9re',value)
     return new Promise(async (done, reject) => {
       try {
-        let result = await db.User.findAll({
+        let result = await db?.User?.findAll({
           where: value
         });
         console.log('shdbjcaksldjfcnasd',result)
